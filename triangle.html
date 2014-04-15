@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>triangleTest</title>
+    <style>
+        *{margin: 0;padding: 0}
+        body{background: #adadad}
+        .whole{background: #fff;text-align: center;
+        margin-left: 400px;margin-top: 50px}
+        .triangle{
+            position: absolute;
+
+            border-bottom: 10px solid #ffffff;
+            border-right: 10px solid transparent ;
+            border-left: 10px solid transparent ;
+            margin-top: -10px;
+            margin-left: 10px;;
+        }
+    </style>
+</head>
+<body>
+    <div class="whole">
+          <div class="triangle"></div>
+          <p>你好</p>
+          <h1>你好</h1>
+          <h1>你好</h1>
+    </div>
+    <script>
+
+//        var c=new String('a');
+//        alert(c);
+//        var b,age=20;
+//        b=age+++--age+"";
+//        alert(b);
+        var color="blue";
+        function changeColor(){
+            if(color==="red"){
+                color="red";
+            }else{
+                color="blue";
+            }
+        }
+        changeColor();
+        alert("Now color is:"+color);
+    </script>
+</body>
+</html>
